@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
 
 public class GetURLContent {
 	
-	static File file = new File("src/urlparser/example.txt");
+	static File file = new File("src/urlparser/results.txt");
 	static String pattern = "head";
 	static Pattern r = Pattern.compile(pattern);
 	static Semaphore s = new Semaphore(20);
